@@ -8,33 +8,31 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <script type="text/javascript" src="https://cdn.pagantis.com/js/pg-v2/sdk.js"></script> 
         <script src="https://kit.fontawesome.com/7c604236ad.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="css/amount.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <!-- Styles -->
        
+        <script type="text/javascript" src="https://cdn.pagantis.com/js/pg-v2/sdk.js"></script> 
+        <script src="./js/script.js"></script>
     </head>
     <body>     
             <header class= "row justify-content-center ">
                     <img class="imagen col-10" src="img\pagantis_logo.png">
             </header>
 
-            <div class="jumbotron justify-content-center">
-                <h1 class="jumbotron">Welcome to Pagantis</h1>
-                <p><b>Please introduce the ammount of money you want to finance with us</b></p>
-            </div>
+    <main class= "row justify-content-center col-10">
+            
+<div id="onetime" class="customSimulator"></div> 
+            <input id="amount" type="number" class="myimput" name="amount" placeholder="Total ammount needed">
+            <button class="btn btn-primary btn-lg btn-block" onclick="calculate()">Calcular<i class="fab fa-searchengin tamaño float-right "></i>
+            </button>
+        
+    </main>
+    <footer class= "row justify-content-center">
+            <p><b>© 2020 Pagantis - v9.2.2</b></p>
+    </footer>
 
-            <main class= "row justify-content-center col-10">
-                <form action="{{action('ApiController@pasarDatos')}}" method="post" class="col-6" >      
-                    <input class="myimput" name="amount" placeholder="Total ammount needed">
-                    <button class="btn btn-primary btn-lg btn-block" type="submit">Buscar<i class="fab fa-searchengin tamaño float-right "></i>
-                    </button>
-                </form>
-            </main>
-            <footer class= "row justify-content-center">
-                <div>
-                    <p><b>© 2020 Pagantis - v9.2.2</b></p>
-                </div>
-            </footer>
-        </div>
+</body>        
 </html>

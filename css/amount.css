@@ -30,15 +30,6 @@ html, body {
     font-size: 84px;
 }
 
-.links > a {
-    color: #636b6f;
-    padding: 0 25px;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: .1rem;
-    text-decoration: none;
-    text-transform: uppercase;
-}
 
 .m-b-md {
     margin-bottom: 30px;
@@ -69,7 +60,7 @@ footer{
     color: #00aeee;
     background-color: #cbeefa;
     position:absolute;
-    bottom: 0;
+
     height: 50px;
     width: 100%;
     
@@ -84,4 +75,9 @@ footer{
 }
 .botonBuscar{
     margin-top: 20px;
+}
+
+.imagen{
+    height: 200px;
+    width: 250px;
 }
