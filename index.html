@@ -17,22 +17,23 @@
         <script type="text/javascript" src="https://cdn.pagantis.com/js/pg-v2/sdk.js"></script> 
         <script src="./js/script.js"></script>
     </head>
-    <body>     
-            <header class= "row justify-content-center ">
-                    <img class="imagen col-10" src="img\pagantis_logo.png">
-            </header>
+    <body>  
+    <header class= "row justify-content-center col-10">
+        <img class="imagen col-10" src="img\pagantis_logo.png">
+    </header>
 
     <main class= "row justify-content-center col-10">
-            
-<div id="onetime" class="customSimulator"></div> 
-            <input id="amount" type="number" class="myimput" name="amount" placeholder="Total ammount needed">
-            <button class="btn btn-primary btn-lg btn-block" onclick="calculate()">Calcular<i class="fab fa-searchengin tamaño float-right "></i>
-            </button>
-        
+        <div class="sloganPagantis">
+                <p>¿Quieres saber cuando podrías parar al més?</p>
+                <p>Introduce el importe total de la compra que quieres financiar en la ventana a continuación<br>Presiona calcular y veras el resultado imediatamente!</p>
+        </div>
+        <div class="ventanaImporte col-10">
+                <input id="amount" type="number" class="myimput" name="amount" placeholder="Importe a financiar">
+                <button class="btn btn-primary btn-lg btn-block" onclick="calculate()">Calcular<i class="fab fa-searchengin tamaño float-right "></i>
+                </button>
+               <br>
+        </div>
+            <div id="onetime" class="customSimulator"></div>        
     </main>
-    <footer class= "row justify-content-center">
-            <p><b>© 2020 Pagantis - v9.2.2</b></p>
-    </footer>
-
 </body>        
 </html>

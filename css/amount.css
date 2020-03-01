@@ -3,7 +3,8 @@ html, body {
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
     height: 100vh;
-    margin: 0;
+    margin-left: 180px;
+    
 }
 
 .flex-center {
@@ -58,12 +59,10 @@ header{
 
 footer{
     color: #00aeee;
-    background-color: #cbeefa;
     position:absolute;
-
     height: 50px;
     width: 100%;
-    
+    margin-left: 0px;
 }
 .tamaño:before{
     font-size: 24px;
